@@ -101,6 +101,12 @@ var sql = CREATE TABLE classrooms(
     classes_created_so_far VARCHAR(125), 
     programmes VARCHAR(125)
      );
+//creating tables for students
+var sql = CREATE TABLE students(
+    student_id INT AUTOINCREMENT PRIMARY KEY,
+    student_name VARCHAR(45),
+    student_class VARCHAR(45)
+    );
 //creating tables for teachers
 var sql = CREATE TABLE teachers(
     teacher_id INT PRIMARY KEY,
