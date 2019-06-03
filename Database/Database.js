@@ -103,7 +103,7 @@ var sql = CREATE TABLE classrooms(
      );
 //creating tables for students
 var sql = CREATE TABLE students(
-    student_id INT AUTOINCREMENT PRIMARY KEY,
+    student_id INT AUTO_INCREMENT PRIMARY KEY,
     student_name VARCHAR(45),
     student_class VARCHAR(45)
     );
