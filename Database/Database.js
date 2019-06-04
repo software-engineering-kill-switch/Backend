@@ -72,7 +72,7 @@ var sql = CREATE TABLE cashflow(
     processing INT, 
     collected INT, paid INT, 
     id AUTO_INCREMENT PRIMARY KEY
-    )";
+    );
 var sql = CREATE TABLE send_invoice(
     parent_email VARCHAR(125), 
     currency_type VARCHAR(125), 
