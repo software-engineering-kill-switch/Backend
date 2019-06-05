@@ -52,7 +52,7 @@ var sql = CREATE TABLE day_of_week(
     id INT AUTO_INCREMENT PRIMARY KEY,
     day VARCHAR(125)
     );
-var sql = CREATE TABLE class(
+var sql = CREATE TABLE name_of_class(
     id INT AUTO_INCREMENT PRIMARY KEY,
     class_name VARCHAR(45)
     );
@@ -62,22 +62,6 @@ var sql = CREATE TABLE class_timetable(
     period_id INT, day_id INT
     );
 //creating tables for billing and payments
-var sql = CREATE TABLE invoices(
-    item VARCHAR(125), 
-    price INT, student_name VARCHAR(125), 
-    id AUTO_INCREMENT PRIMARY KEY
-    );
-var sql = CREATE TABLE cashflow(
-    pending INT, 
-    processing INT, 
-    collected INT, paid INT, 
-    id AUTO_INCREMENT PRIMARY KEY
-    );
-var sql = CREATE TABLE send_invoice(
-    parent_email VARCHAR(125), 
-    currency_type VARCHAR(125), 
-    tax INT,id AUTO_INCREMENT PRIMARY KEY
-    );
 var sql = CREATE TABLE outstanding(
     student_names VARCHAR(125), 
     amount_owing INT, 
