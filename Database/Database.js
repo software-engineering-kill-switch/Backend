@@ -71,7 +71,7 @@ var sql = CREATE TABLE outstanding(
 var sql = CREATE TABLE add_student(
     add_class VARCHAR(125), 
     student_name VARCHAR(125), 
-    student_id VARCHAR(125) AUTO_INCREMENT PRIMARY KEY,
+    student_id INT AUTO_INCREMENT PRIMARY KEY,
     mother_name VARCHAR(125),
     mother_email VARCHAR(125),
     mother_num INT,father_name VARCHAR(125), 
