@@ -82,7 +82,7 @@ var sql = CREATE TABLE add_student(
 var sql = CREATE TABLE classrooms(
     add_classroom VARCHAR(125), 
     classrooms VARCHAR(125) PRIMARY KEY,
-    classes_created_so_far VARCHAR(125), 
+    classes_created_so_far INT, 
     programmes VARCHAR(125)
      );
 //creating tables for students
